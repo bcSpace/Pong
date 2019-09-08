@@ -7,7 +7,7 @@ import java.awt.event.KeyEvent;
 
 public class MainMenu extends State{
 	
-	public MainMenu(GameStateManger gsm) {super(gsm);}
+	MainMenu(GameStateManger gsm) {super(gsm);}
 
 	String title = "Main Menu"; 
 	String choices[] = new String[10];
